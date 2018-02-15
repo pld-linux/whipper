@@ -20,6 +20,7 @@ Requires:	python-mutagen
 Requires:	python-pycdio
 Requires:	python-pygobject
 Requires:	python-requests
+Requires:	python-setuptools
 Requires:	sox
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
