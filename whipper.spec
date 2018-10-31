@@ -1,11 +1,11 @@
 Summary:	Python CD-DA ripper preferring accuracy over speed
 Name:		whipper
-Version:	0.7.1
+Version:	0.7.2
 Release:	1
 License:	GPL v3+
 Group:		Applications
 Source0:	https://github.com/whipper-team/whipper/archive/v%{version}.tar.gz
-# Source0-md5:	b69f6d61354ca8834b55d54e802a5ec9
+# Source0-md5:	df622ccbb363c9ca53e80849b52bc8d3
 URL:		https://github.com/whipper-team/whipper
 BuildRequires:	python-modules >= 1:2.7
 BuildRequires:	python-setuptools
@@ -51,5 +51,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc CHANGELOG.md HACKING README.md TODO
 %attr(755,root,root) %{_bindir}/whipper
+%{_datadir}/metainfo/com.github.whipper_team.Whipper.metainfo.xml
 %{py_sitescriptdir}/whipper
 %{py_sitescriptdir}/whipper-%{version}-py*.egg-info
