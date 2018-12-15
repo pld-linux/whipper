@@ -1,11 +1,11 @@
 Summary:	Python CD-DA ripper preferring accuracy over speed
 Name:		whipper
-Version:	0.7.2
+Version:	0.7.3
 Release:	1
 License:	GPL v3+
 Group:		Applications
 Source0:	https://github.com/whipper-team/whipper/archive/v%{version}.tar.gz
-# Source0-md5:	df622ccbb363c9ca53e80849b52bc8d3
+# Source0-md5:	0cdeba11ba71875f58929b8c8ae4b55d
 URL:		https://github.com/whipper-team/whipper
 BuildRequires:	python-modules >= 1:2.7
 BuildRequires:	python-setuptools
