@@ -1,7 +1,7 @@
 Summary:	Python CD-DA ripper preferring accuracy over speed
 Name:		whipper
 Version:	0.9.0
-Release:	1
+Release:	2
 License:	GPL v3+
 Group:		Applications
 Source0:	https://github.com/whipper-team/whipper/archive/v%{version}.tar.gz
@@ -23,7 +23,6 @@ Requires:	python3-requests
 Requires:	python3-ruamel.yaml
 Requires:	python3-setuptools
 Requires:	sox
-BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
